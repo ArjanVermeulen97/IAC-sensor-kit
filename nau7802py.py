@@ -2,6 +2,10 @@ import time
 import struct
 from adafruit_bus_device import i2c_device
 from micropython import const
+import board2
+
+i2c = board2.I2C()
+nau = NAU7802(i2c)
 
 # Register Map
 Scale_Registers = {'NAU7802_PU_CTRL': 0x00,
@@ -107,9 +111,9 @@ NAU7802_Cal_Status = {'NAU7802_CAL_SUCCESS': 0,
 
 class NAU7802():
     # Default constructor
-    def __init__(self, i2cPort = 1, deviceAddress = 0x2A, zeroOffset = False,
+    def __init__(self, i2c, deviceAddress = 0x2A, zeroOffset = False,
                  calibrationFactor = False):
-        self.bus = i2c_device.I2CDevice(i2c, address)    # This stores the user's requested i2c port
+        self.bus = i2c_device.I2CDevice(i2c, deviceAddress)    # This stores the user's requested i2c port
         self.deviceAddress = deviceAddress    # Default unshifted 7-bit address of the NAU7802
 
         # y = mx + b
@@ -223,7 +227,10 @@ class NAU7802():
         while not self.available():
             pass
         
-        block = self.bus.read_i2c_block_data(self.deviceAddress, Scale_Registers['NAU7802_ADCO_B2'], 3)
+        block = bytearray(3)
+        with self.i2c_device as i2c:
+            i2c.write(struct.pack(">H", Scale_Registers['NAU7802_ADCO_B2']))
+            i2c.readinto(data)
         
         valueRaw = block[0] << 16    # MSB
         valueRaw |= block[1] << 8    #MidSB
@@ -244,7 +251,11 @@ class NAU7802():
     # Get contents of a register
     def getRegister(self, registerAddress):    # Get contents of a register
         try:
-            return self.bus.read_i2c_block_data(self.deviceAddress, registerAddress, 1)[0]
+            data = bytearray(1)
+            with self.i2c_device as i2c:
+                i2c.write(struct.pack(">H", address))
+                i2c.readinto(data)
+            return data
         except:
             return False    # Error
 
@@ -366,7 +377,9 @@ class NAU7802():
     # Return true if successful
     def setRegister(self, registerAddress, value):    # Send a given value to be written to given address. Return true if successful
         try:
-            self.bus.write_word_data(self.deviceAddress, registerAddress, value)
+            length = len(value)
+            with self.i2c_device as i2c:
+                i2c.write(struct.pack(">H", registerAddress) + value[:length])
         except:
             return False    # Sensor did not ACK
         return True

@@ -9,11 +9,11 @@ import usb
 import usb.util
 import os
 os.environ["BLINKA_FT232H"] = "1"
-import board
+import board2
 import adafruit_vl53l1x
 import time
 
-i2c = board.I2C()
+i2c = board2.I2C()
 vl53 = adafruit_vl53l1x.VL53L1X(i2c)
 
 print("VL53L1X Simple Test.")

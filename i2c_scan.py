@@ -5,11 +5,11 @@
 #  >>> board.I2C().unlock()
 
 import time
-import board
+import board2
 
 def i2c_scan():
     # To use default I2C bus (most boards)
-    i2c = board.I2C()
+    i2c = board2.I2C()
     
     # To create I2C bus on specific pins
     # import busio
