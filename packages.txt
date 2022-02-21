@@ -1,0 +1,8 @@
+pyusb
+pyftdi
+adafruit-blinka
+smbus2
+adafruit-circuitpython-vl53l1x
+PyNAU7802
+
+ENABLE i2C SWITCH
