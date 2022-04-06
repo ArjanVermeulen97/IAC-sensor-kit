@@ -1,3 +1,5 @@
+#include <SparkFun_Qwiic_Scale_NAU7802_Arduino_Library.h>
+
 /*
   Use the Qwiic Scale to read load cells and scales
   By: Nathan Seidle @ SparkFun Electronics
@@ -35,45 +37,46 @@
 #include "SparkFun_Qwiic_Scale_NAU7802_Arduino_Library.h" // Click here to get the library: http://librarymanager/All#SparkFun_NAU7802
 #include "SparkFun_VL53L1X.h" //Click here to get the library: http://librarymanager/All#SparkFun_VL53L1X
 
-NAU7802 myScale; //Create instance of the NAU7802 class
+NAU7802 Scale; //Create instance of the NAU7802 class
 SFEVL53L1X distanceSensor;
-int startPin = 7;
-int ledPin = 4;
+int startPin = 15;
 unsigned int measurements = 0;
 unsigned long lastOutput = 0;
 long totalScale = 0;
 long totalToF = 0;
 unsigned long runTime;
 
+
 void setup()
 {
-  pinMode(startPin, INPUT);
-  pinMode(ledPin, OUTPUT);
-  digitalWrite(ledPin, LOW);
-  while (digitalRead(startPin) == LOW) {
-    delay(1);
-  }
-
   Serial.begin(9600);
-  Serial.println("IAC Sensor kit, v0.1");
-
+  Serial.println("IAC Sensor kit, v0.2");
+  
+  delay(10);
   Wire.begin();
-
-  if (myScale.begin() == false)
-  {
-    Serial.println("Scale not detected. Please check wiring. Freezing...");
+  delay(10);
+  
+  Serial.print("Load Cell...");
+  Serial.println("joe");
+  if (Scale.begin() == false)
+  {  
+    Serial.println(" not detected. Please check wiring. Freezing...");
     while (1);
+  } else {
+    Serial.println(" success!");
   }
-
+  
+  Serial.println("Time of Flight...");
   if (distanceSensor.begin() != 0) //Begin returns 0 on a good init
   {
-    Serial.println("ToF sensor failed to begin. Please check wiring. Freezing...");
+    Serial.println(" failed to begin. Please check wiring. Freezing...");
     while (1)
       ;
+  } else {
+    Serial.println(" success!");
   }
   
   Serial.println("Sensors initiated!");
-  digitalWrite(ledPin, HIGH);
 }
 
 void loop()
@@ -82,25 +85,23 @@ void loop()
   if (runTime - lastOutput > 100)
   {
     distanceSensor.startRanging();
-    while(!myScale.available() or !distanceSensor.checkForDataReady())
-    {
-      delay(1);
-    }
-    totalScale = totalScale + myScale.getReading();
     totalToF = totalToF + distanceSensor.getDistance();
     distanceSensor.clearInterrupt();
     distanceSensor.stopRanging();
+
+    delay(1);
+    totalScale = totalScale + Scale.getReading();
+    
     measurements++;
     lastOutput = runTime;
     if (measurements == 10) {
-      Serial.print("Scale: ");
+      Serial.print("load_cell: ");
       Serial.print(totalScale / 10);
-      Serial.print(", ToF: ");
-      Serial.println(totalToF / 10);
+      Serial.print(" time_of_flight: ");
+      Serial.println(totalToF * 2.54);
       measurements = 0;
       totalScale = 0;
       totalToF = 0;
-      
     }
   }
 }

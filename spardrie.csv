@@ -1,0 +1,187 @@
+IAC Sensor kit, v0.1
+Scale 1:
+Success!
+Scale 2:
+Success!
+Time of Flight:
+ToF sensor failed to begin. Please check wiring. Freezing...
+IAC Sensor kit, v0.1
+Scale 1:
+Success!
+Scale 2:
+Success!
+Time of Flight:
+ToF sensor failed to begin. Please check wiring. Freezing...
+IAC Sensor kit, v0.1
+Scale 1:
+Success!
+Scale 2:
+Success!
+Time of Flight:
+ToF sensor failed to begin. Please check wiring. Freezing...
+IAC Sensor kit, v0.1
+Scale 1:
+Success!
+Scale 2:
+Success!
+Time of Flight:
+ToF sensor failed to begin. Please check wiring. Freezing...
+IAC Sensor kit, v0.1
+Scale 1:
+Success!
+Scale 2:
+Success!
+Time of Flight:
+Success!
+Sensors initiated!
+load_cell_1: -29764 load_cell_2: -29765 load_cell_3: -29764 load_cell_4: -29765 time_of_flight: 119
+load_cell_1: -29755 load_cell_2: -29756 load_cell_3: -29755 load_cell_4: -29793 time_of_flight: 121
+load_cell_1: -29784 load_cell_2: -29788 load_cell_3: -29783 load_cell_4: -29780 time_of_flight: 120
+load_cell_1: -29742 load_cell_2: -29738 load_cell_3: -29737 load_cell_4: -29738 time_of_flight: 120
+load_cell_1: -29869 load_cell_2: -29870 load_cell_3: -29881 load_cell_4: -29888 time_of_flight: 120
+load_cell_1: -29794 load_cell_2: -29811 load_cell_3: -29820 load_cell_4: -29821 time_of_flight: 120
+load_cell_1: -29839 load_cell_2: -29840 load_cell_3: -29839 load_cell_4: -29829 time_of_flight: 120
+load_cell_1: -29847 load_cell_2: -29831 load_cell_3: -29827 load_cell_4: -29822 time_of_flight: 120
+load_cell_1: -30109 load_cell_2: -30110 load_cell_3: -30109 load_cell_4: -30110 time_of_flight: 121
+load_cell_1: -34026 load_cell_2: -34059 load_cell_3: -34097 load_cell_4: -34091 time_of_flight: 121
+load_cell_1: -55069 load_cell_2: -55070 load_cell_3: -55069 load_cell_4: -55070 time_of_flight: 121
+load_cell_1: -67096 load_cell_2: -67073 load_cell_3: -67119 load_cell_4: -67125 time_of_flight: 121
+load_cell_1: -71143 load_cell_2: -71128 load_cell_3: -71109 load_cell_4: -71110 time_of_flight: 121
+load_cell_1: -92946 load_cell_2: -92947 load_cell_3: -92946 load_cell_4: -93114 time_of_flight: 122
+load_cell_1: -106514 load_cell_2: -106571 load_cell_3: -106605 load_cell_4: -106606 time_of_flight: 125
+load_cell_1: -116225 load_cell_2: -116226 load_cell_3: -116225 load_cell_4: -116239 time_of_flight: 126
+load_cell_1: -125245 load_cell_2: -125260 load_cell_3: -125263 load_cell_4: -125303 time_of_flight: 128
+load_cell_1: -133535 load_cell_2: -133550 load_cell_3: -133549 load_cell_4: -133550 time_of_flight: 130
+load_cell_1: -140752 load_cell_2: -140753 load_cell_3: -140752 load_cell_4: -140792 time_of_flight: 133
+load_cell_1: -147728 load_cell_2: -147734 load_cell_3: -147742 load_cell_4: -147743 time_of_flight: 136
+load_cell_1: -154460 load_cell_2: -154461 load_cell_3: -154460 load_cell_4: -154476 time_of_flight: 139
+load_cell_1: -160877 load_cell_2: -160892 load_cell_3: -160907 load_cell_4: -160908 time_of_flight: 143
+load_cell_1: -166928 load_cell_2: -166929 load_cell_3: -166928 load_cell_4: -166929 time_of_flight: 145
+load_cell_1: -173445 load_cell_2: -173445 load_cell_3: -173436 load_cell_4: -173518 time_of_flight: 148
+load_cell_1: -180004 load_cell_2: -180021 load_cell_3: -180020 load_cell_4: -180021 time_of_flight: 152
+load_cell_1: -188286 load_cell_2: -188287 load_cell_3: -188288 load_cell_4: -188324 time_of_flight: 155
+load_cell_1: -195755 load_cell_2: -195798 load_cell_3: -195824 load_cell_4: -195825 time_of_flight: 158
+load_cell_1: -202982 load_cell_2: -202983 load_cell_3: -202982 load_cell_4: -202978 time_of_flight: 161
+load_cell_1: -209759 load_cell_2: -209766 load_cell_3: -209771 load_cell_4: -209795 time_of_flight: 164
+load_cell_1: -215664 load_cell_2: -215665 load_cell_3: -215664 load_cell_4: -215665 time_of_flight: 166
+load_cell_1: -221971 load_cell_2: -222027 load_cell_3: -222066 load_cell_4: -222070 time_of_flight: 169
+load_cell_1: -228117 load_cell_2: -228096 load_cell_3: -228095 load_cell_4: -228096 time_of_flight: 171
+load_cell_1: -232829 load_cell_2: -232830 load_cell_3: -232829 load_cell_4: -232877 time_of_flight: 174
+load_cell_1: -237250 load_cell_2: -237275 load_cell_3: -237292 load_cell_4: -237293 time_of_flight: 177
+load_cell_1: -240544 load_cell_2: -240545 load_cell_3: -240544 load_cell_4: -240624 time_of_flight: 179
+load_cell_1: -245220 load_cell_2: -245230 load_cell_3: -245259 load_cell_4: -245260 time_of_flight: 180
+load_cell_1: -250767 load_cell_2: -250768 load_cell_3: -250767 load_cell_4: -250781 time_of_flight: 182
+load_cell_1: -255739 load_cell_2: -255785 load_cell_3: -255799 load_cell_4: -255823 time_of_flight: 187
+load_cell_1: -259917 load_cell_2: -259918 load_cell_3: -259917 load_cell_4: -259918 time_of_flight: 189
+load_cell_1: -263970 load_cell_2: -263975 load_cell_3: -264009 load_cell_4: -264022 time_of_flight: 192
+load_cell_1: -267240 load_cell_2: -267231 load_cell_3: -267230 load_cell_4: -267231 time_of_flight: 195
+load_cell_1: -269052 load_cell_2: -269053 load_cell_3: -269040 load_cell_4: -269056 time_of_flight: 199
+load_cell_1: -270787 load_cell_2: -270783 load_cell_3: -270782 load_cell_4: -270783 time_of_flight: 204
+load_cell_1: -274530 load_cell_2: -274531 load_cell_3: -274532 load_cell_4: -274555 time_of_flight: 207
+load_cell_1: -280209 load_cell_2: -280231 load_cell_3: -280205 load_cell_4: -280226 time_of_flight: 211
+load_cell_1: -284494 load_cell_2: -284495 load_cell_3: -284494 load_cell_4: -284487 time_of_flight: 214
+load_cell_1: -289300 load_cell_2: -289307 load_cell_3: -289313 load_cell_4: -289344 time_of_flight: 218
+load_cell_1: -291057 load_cell_2: -291052 load_cell_3: -291051 load_cell_4: -291052 time_of_flight: 221
+load_cell_1: -295641 load_cell_2: -295642 load_cell_3: -295616 load_cell_4: -295587 time_of_flight: 224
+load_cell_1: -299600 load_cell_2: -299604 load_cell_3: -299603 load_cell_4: -299604 time_of_flight: 227
+load_cell_1: -304556 load_cell_2: -304557 load_cell_3: -304556 load_cell_4: -304653 time_of_flight: 231
+load_cell_1: -308633 load_cell_2: -308684 load_cell_3: -308711 load_cell_4: -308712 time_of_flight: 233
+load_cell_1: -313620 load_cell_2: -313621 load_cell_3: -313620 load_cell_4: -313618 time_of_flight: 235
+load_cell_1: -318412 load_cell_2: -318428 load_cell_3: -318423 load_cell_4: -318444 time_of_flight: 238
+load_cell_1: -323293 load_cell_2: -323294 load_cell_3: -323293 load_cell_4: -323294 time_of_flight: 240
+load_cell_1: -328478 load_cell_2: -328484 load_cell_3: -328493 load_cell_4: -328501 time_of_flight: 243
+load_cell_1: -335483 load_cell_2: -335508 load_cell_3: -335507 load_cell_4: -335508 time_of_flight: 245
+load_cell_1: -342365 load_cell_2: -342366 load_cell_3: -342394 load_cell_4: -342456 time_of_flight: 248
+load_cell_1: -349892 load_cell_2: -349905 load_cell_3: -349923 load_cell_4: -349924 time_of_flight: 249
+load_cell_1: -357177 load_cell_2: -357178 load_cell_3: -357177 load_cell_4: -357201 time_of_flight: 251
+load_cell_1: -364169 load_cell_2: -364208 load_cell_3: -364244 load_cell_4: -364260 time_of_flight: 254
+load_cell_1: -371293 load_cell_2: -371294 load_cell_3: -371293 load_cell_4: -371294 time_of_flight: 254
+load_cell_1: -378006 load_cell_2: -378037 load_cell_3: -378055 load_cell_4: -378070 time_of_flight: 256
+load_cell_1: -385533 load_cell_2: -385569 load_cell_3: -385568 load_cell_4: -385569 time_of_flight: 256
+load_cell_1: -393261 load_cell_2: -393262 load_cell_3: -393283 load_cell_4: -393320 time_of_flight: 258
+load_cell_1: -400214 load_cell_2: -400299 load_cell_3: -400273 load_cell_4: -400274 time_of_flight: 258
+load_cell_1: -406930 load_cell_2: -406931 load_cell_3: -406930 load_cell_4: -406935 time_of_flight: 257
+load_cell_1: -413278 load_cell_2: -413322 load_cell_3: -413361 load_cell_4: -413406 time_of_flight: 257
+load_cell_1: -420358 load_cell_2: -420359 load_cell_3: -420358 load_cell_4: -420359 time_of_flight: 255
+load_cell_1: -425740 load_cell_2: -425741 load_cell_3: -425769 load_cell_4: -425838 time_of_flight: 259
+load_cell_1: -431577 load_cell_2: -431621 load_cell_3: -431620 load_cell_4: -431621 time_of_flight: 260
+load_cell_1: -437060 load_cell_2: -437061 load_cell_3: -437078 load_cell_4: -437134 time_of_flight: 260
+load_cell_1: -443066 load_cell_2: -443081 load_cell_3: -443122 load_cell_4: -443123 time_of_flight: 261
+load_cell_1: -449299 load_cell_2: -449300 load_cell_3: -449299 load_cell_4: -449305 time_of_flight: 264
+load_cell_1: -455731 load_cell_2: -455718 load_cell_3: -455735 load_cell_4: -455736 time_of_flight: 267
+load_cell_1: -461569 load_cell_2: -461570 load_cell_3: -461569 load_cell_4: -461570 time_of_flight: 272
+load_cell_1: -466526 load_cell_2: -466511 load_cell_3: -466447 load_cell_4: -466465 time_of_flight: 274
+load_cell_1: -469144 load_cell_2: -469165 load_cell_3: -469164 load_cell_4: -469165 time_of_flight: 273
+load_cell_1: -476553 load_cell_2: -476554 load_cell_3: -476579 load_cell_4: -476577 time_of_flight: 280
+load_cell_1: -482616 load_cell_2: -482658 load_cell_3: -482667 load_cell_4: -482668 time_of_flight: 283
+load_cell_1: -488012 load_cell_2: -488013 load_cell_3: -488012 load_cell_4: -488013 time_of_flight: 285
+load_cell_1: -494023 load_cell_2: -494007 load_cell_3: -494011 load_cell_4: -494015 time_of_flight: 291
+load_cell_1: -495370 load_cell_2: -495371 load_cell_3: -495370 load_cell_4: -495371 time_of_flight: 295
+load_cell_1: -497031 load_cell_2: -497032 load_cell_3: -497070 load_cell_4: -497078 time_of_flight: 295
+load_cell_1: -500795 load_cell_2: -500833 load_cell_3: -500832 load_cell_4: -500833 time_of_flight: 296
+load_cell_1: -504533 load_cell_2: -504534 load_cell_3: -504533 load_cell_4: -504561 time_of_flight: 302
+load_cell_1: -506909 load_cell_2: -506882 load_cell_3: -506918 load_cell_4: -506919 time_of_flight: 302
+load_cell_1: -509549 load_cell_2: -509550 load_cell_3: -509549 load_cell_4: -509550 time_of_flight: 303
+load_cell_1: -511011 load_cell_2: -511025 load_cell_3: -511027 load_cell_4: -511044 time_of_flight: 307
+load_cell_1: -511056 load_cell_2: -511065 load_cell_3: -511064 load_cell_4: -511065 time_of_flight: 303
+load_cell_1: -509784 load_cell_2: -509785 load_cell_3: -509759 load_cell_4: -509792 time_of_flight: 306
+load_cell_1: -511184 load_cell_2: -511190 load_cell_3: -511234 load_cell_4: -511235 time_of_flight: 308
+load_cell_1: -511408 load_cell_2: -511409 load_cell_3: -511408 load_cell_4: -511409 time_of_flight: 310
+load_cell_1: -514140 load_cell_2: -514118 load_cell_3: -514096 load_cell_4: -514123 time_of_flight: 309
+load_cell_1: -515299 load_cell_2: -515300 load_cell_3: -515299 load_cell_4: -515300 time_of_flight: 311
+load_cell_1: -514928 load_cell_2: -514929 load_cell_3: -514952 load_cell_4: -514914 time_of_flight: 311
+load_cell_1: -515775 load_cell_2: -515815 load_cell_3: -515803 load_cell_4: -515804 time_of_flight: 313
+load_cell_1: -517037 load_cell_2: -517038 load_cell_3: -517037 load_cell_4: -517061 time_of_flight: 314
+load_cell_1: -517849 load_cell_2: -517869 load_cell_3: -517894 load_cell_4: -517852 time_of_flight: 315
+load_cell_1: -518762 load_cell_2: -518763 load_cell_3: -518762 load_cell_4: -518763 time_of_flight: 318
+load_cell_1: -519481 load_cell_2: -519530 load_cell_3: -519490 load_cell_4: -519521 time_of_flight: 319
+load_cell_1: -519952 load_cell_2: -519958 load_cell_3: -519957 load_cell_4: -519958 time_of_flight: 320
+load_cell_1: -520792 load_cell_2: -520793 load_cell_3: -520766 load_cell_4: -520766 time_of_flight: 323
+load_cell_1: -521760 load_cell_2: -521778 load_cell_3: -521780 load_cell_4: -521781 time_of_flight: 324
+load_cell_1: -521696 load_cell_2: -521697 load_cell_3: -521696 load_cell_4: -521712 time_of_flight: 328
+load_cell_1: -523045 load_cell_2: -523008 load_cell_3: -523018 load_cell_4: -523017 time_of_flight: 329
+load_cell_1: -523836 load_cell_2: -523837 load_cell_3: -523836 load_cell_4: -523837 time_of_flight: 332
+load_cell_1: -524294 load_cell_2: -524295 load_cell_3: -524258 load_cell_4: -524275 time_of_flight: 333
+load_cell_1: -522835 load_cell_2: -522839 load_cell_3: -522838 load_cell_4: -522839 time_of_flight: 336
+load_cell_1: -523643 load_cell_2: -523644 load_cell_3: -523643 load_cell_4: -523568 time_of_flight: 336
+load_cell_1: -524734 load_cell_2: -524724 load_cell_3: -524811 load_cell_4: -524795 time_of_flight: 339
+load_cell_1: -527609 load_cell_2: -527610 load_cell_3: -527609 load_cell_4: -527610 time_of_flight: 343
+load_cell_1: -529586 load_cell_2: -529632 load_cell_3: -529650 load_cell_4: -529651 time_of_flight: 345
+load_cell_1: -529427 load_cell_2: -529422 load_cell_3: -529421 load_cell_4: -529422 time_of_flight: 348
+load_cell_1: -530283 load_cell_2: -530284 load_cell_3: -530277 load_cell_4: -530269 time_of_flight: 349
+load_cell_1: -529202 load_cell_2: -529120 load_cell_3: -529144 load_cell_4: -529145 time_of_flight: 354
+load_cell_1: -524109 load_cell_2: -524110 load_cell_3: -524109 load_cell_4: -524110 time_of_flight: 355
+load_cell_1: -520307 load_cell_2: -520311 load_cell_3: -520301 load_cell_4: -520283 time_of_flight: 355
+load_cell_1: -518093 load_cell_2: -518092 load_cell_3: -518091 load_cell_4: -518092 time_of_flight: 355
+load_cell_1: -516721 load_cell_2: -516722 load_cell_3: -516745 load_cell_4: -516754 time_of_flight: 356
+load_cell_1: -515681 load_cell_2: -515660 load_cell_3: -515634 load_cell_4: -515635 time_of_flight: 355
+load_cell_1: -514812 load_cell_2: -514813 load_cell_3: -514812 load_cell_4: -514838 time_of_flight: 356
+load_cell_1: -514145 load_cell_2: -514149 load_cell_3: -514132 load_cell_4: -514148 time_of_flight: 354
+load_cell_1: -513504 load_cell_2: -513510 load_cell_3: -513509 load_cell_4: -513510 time_of_flight: 354
+load_cell_1: -513068 load_cell_2: -513069 load_cell_3: -513073 load_cell_4: -513079 time_of_flight: 355
+load_cell_1: -512498 load_cell_2: -512527 load_cell_3: -512534 load_cell_4: -512535 time_of_flight: 355
+load_cell_1: -512029 load_cell_2: -512030 load_cell_3: -512029 load_cell_4: -512020 time_of_flight: 355
+load_cell_1: -511628 load_cell_2: -511637 load_cell_3: -511639 load_cell_4: -511626 time_of_flight: 354
+load_cell_1: -511338 load_cell_2: -511339 load_cell_3: -511338 load_cell_4: -511339 time_of_flight: 353
+load_cell_1: -504338 load_cell_2: -504316 load_cell_3: -504145 load_cell_4: -504068 time_of_flight: 354
+load_cell_1: -466149 load_cell_2: -465968 load_cell_3: -465967 load_cell_4: -465968 time_of_flight: 353
+load_cell_1: -424248 load_cell_2: -424249 load_cell_3: -424202 load_cell_4: -424049 time_of_flight: 352
+load_cell_1: -380425 load_cell_2: -380247 load_cell_3: -380025 load_cell_4: -380026 time_of_flight: 348
+load_cell_1: -343535 load_cell_2: -343536 load_cell_3: -343535 load_cell_4: -343536 time_of_flight: 347
+load_cell_1: -305794 load_cell_2: -305731 load_cell_3: -305581 load_cell_4: -305368 time_of_flight: 343
+load_cell_1: -272003 load_cell_2: -272004 load_cell_3: -272003 load_cell_4: -272004 time_of_flight: 341
+load_cell_1: -241694 load_cell_2: -241695 load_cell_3: -241677 load_cell_4: -241625 time_of_flight: 336
+load_cell_1: -222174 load_cell_2: -222123 load_cell_3: -222078 load_cell_4: -222079 time_of_flight: 335
+load_cell_1: -206492 load_cell_2: -206493 load_cell_3: -206492 load_cell_4: -206401 time_of_flight: 332
+load_cell_1: -192358 load_cell_2: -192291 load_cell_3: -192231 load_cell_4: -192178 time_of_flight: 329
+load_cell_1: -178144 load_cell_2: -178103 load_cell_3: -178102 load_cell_4: -178103 time_of_flight: 326
+load_cell_1: -165111 load_cell_2: -165112 load_cell_3: -165069 load_cell_4: -165051 time_of_flight: 324
+load_cell_1: -154345 load_cell_2: -154303 load_cell_3: -154266 load_cell_4: -154267 time_of_flight: 323
+load_cell_1: -145870 load_cell_2: -145871 load_cell_3: -145870 load_cell_4: -145841 time_of_flight: 319
+load_cell_1: -138338 load_cell_2: -138265 load_cell_3: -138225 load_cell_4: -138185 time_of_flight: 318
+load_cell_1: -131585 load_cell_2: -131586 load_cell_3: -131585 load_cell_4: -131586 time_of_flight: 316
+load_cell_1: -125525 load_cell_2: -125526 load_cell_3: -125423 load_cell_4: -125320 time_of_flight: 314
+load_cell_1: -100460 load_cell_2: -100304 load_cell_3: -100303 load_cell_4: -100304 time_of_flight: 305
+load_cell_1: -76873 load_cell_2: -76874 load_cell_3: -76873 load_cell_4: -76817 time_of_flight: 294
+load_cell_1: -66357 load_cell_2: -66289 load_cell_3: -66324 load_cell_4: -66324 time_of_flight: 287
+load_cell_1: -66298 load_cell_2: -66299 load_cell_3: -66298 load_cell_4: -66299 time_of_flight: 283

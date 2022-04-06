@@ -1,0 +1,12 @@
+IAC Sensor kit, v0.1
+Scale 1:
+Success!
+Scale 2:
+Success!
+Time of Flight:
+Success!
+Sensors initiated!
+load_cell_1: -61201 load_cell_2: -61224 load_cell_3: -61195 load_cell_4: -61196 time_of_flight: 0
+load_cell_1: -61395 load_cell_2: -61396 load_cell_3: -61395 load_cell_4: -61396 time_of_flight: 0
+load_cell_1: -61392 load_cell_2: -61414 load_cell_3: -61435 load_cell_4: -61435 time_of_flight: 0
+load_cell_1: -61407 load_cell_2: -61408 load_cell_3: -61407 load_cell_4: -61408 time_of_flight: 0

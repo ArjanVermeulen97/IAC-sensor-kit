@@ -12,29 +12,25 @@ import serial
 import time
 from IAC_helper import port_scan, development_data
 
-### SETTINGS ###
-dev = True              # Development mode
-usbPort = "editMe"      # Your USB port, obtain using port_scan()
+dev = False              # Development mode
+usbPort = "/dev/ttyACM0"      # Your USB port, obtain using port_scan()
+filename = 'jaspardrie.dat'
 
-# Print information about USB devices
-print("Connected USB Ports:")
-port_scan()
-
-# Attempt to initialize USB connection, if this fails, raise an error and abort.
 try:
     if not dev:
         ser = serial.Serial(usbPort, 9600)
     running = True
     print("Serial initialized succesfully!")
 except:
-    running = False
     print("Issue with serial! Aborting...")
-    print("Try reconnecting the USB cable")
-print("")
-print("Data from serial connection: ")
 
 
-# Main loop
+def log_data(line, file):
+    f = open(file, 'a+')
+    f.write(line)
+    f.write('\n')
+    f.close()
+
 if dev:
     currentTime = time.time()
     while running:
@@ -42,18 +38,17 @@ if dev:
         while currentTime + 1 > time.time():
             pass
         currentTime = time.time()
-        # Read line from USB
         line = development_data()[:-2].decode('utf-8')
         print(line)
-    
+        log_data(line, filename)
         ####################
         ###YOUR CODE HERE###
         ####################
 else:
     while running:
-        # Read line from USB
         line = ser.readline()[:-2].decode('utf-8')
         print(line)
+        log_data(line, filename)
         
         ####################
         ###YOUR CODE HERE###
